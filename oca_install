@@ -20,14 +20,12 @@ sudo git clone https://github.com/OCA/account_payment_partner.git -b 10.0 /opt/o
 
 #He sustituido account_bank_statement_import por account_bank_statement_import_mt940_nl_ing	
 sudo git clone https://github.com/OCA/account_bank_statement_import_mt940_nl_ing.git -b 10.0 /opt/odoo/account_bank_statement_import_mt940_nl_ing	
-sudo git clone https://github.com/OCA/attachment_preview.git -b 10.0 /opt/odoo/attachment_preview
-
-sudo git clone https://github.com/OCA/attachments_to_filesystem.git -b 10.0 /opt/odoo/attachments_to_filesystem
+sudo git clone https://github.com/OCA/attachment_preview.git -b 10.0 opt/odoo/attachment_preview
 sudo git clone https://github.com/OCA/document_page.git -b 10.0 /opt/odoo/document_page
 sudo git clone https://github.com/OCA/document_url.git -b 10.0 /opt/odoo/document_url
-sudo git clone https://github.com/OCA/account_balance_reporting_xls.git -b 10.0 /opt/odoo/account_balance_reporting_xls
-sudo git clone https://github.com/OCA/account   .git -b 10.0 /opt/odoo/account
-sudo git clone https://github.com/OCA/account   .git -b 10.0 /opt/odoo/account
+sudo git clone https://github.com/OCA/account_balance_reporting_xlsx.git -b 10.0 /opt/odoo/account_balance_reporting_xls
+sudo git clone https://github.com/OCA/account_balance_reportinggit -b 10.0 /opt/odoo/account_balance_reporting
+sudo git clone https://github.com/OCA/account_refund_original.git -b 10.0 /opt/odoo/account_refund_original
 sudo git clone https://github.com/OCA/l10n_es_account_asset.git -b 10.0 /opt/odoo/l10n_es_account_asset
 sudo git clone https://github.com/OCA/l10n_es_account_balance_report.git -b 10.0 /opt/odoo/l10n_es_account_balance_report
 sudo git clone https://github.com/OCA/l10n_es_account_bank_statement_import_n43.git -b 10.0 /opt/odoo/l10n_es_account_bank_statement_import_n43
