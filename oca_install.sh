@@ -24,9 +24,9 @@ sudo ln -s /opt/odoo/account-financial-tools/account_chart_update
 sudo ln -s /opt/odoo/account-financial-tools/account_invoice_constraint_chronology
 sudo ln -s /opt/odoo/account-financial-tools/account_invoice_currency
 sudo ln -s /opt/odoo/account-financial-tools/account_journal_always_check_date
-sudo ln -s /opt/odoo/account
-sudo ln -s /opt/odoo/account
-sudo ln -s /opt/odoo/account
-sudo ln -s /opt/odoo/account
-sudo ln -s /opt/odoo/account
+sudo ln -s /opt/odoo/account-financial-tools/account_renumber
+sudo ln -s /opt/odoo/account-payment/account_due_list
+sudo ln -s /opt/odoo/account-payment/account_due_list_payment_mode
+sudo ln -s /opt/odoo/account-payment/account_banking_mandate
+sudo ln -s /opt/odoo/account-payment/account_banking_pain_base
 sudo ln -s /opt/odoo/account
