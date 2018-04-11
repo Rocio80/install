@@ -32,7 +32,7 @@ sudo ln -s /opt/odoo/bank-payment/account_banking_pain_base
 sudo ln -s /opt/odoo/bank-payment/account_banking_payment_export
 sudo ln -s /opt/odoo/bank-payment/account_banking_payment_transfer
 sudo ln -s /opt/odoo/bank-payment/account_banking_sepa_direct_debit
-sudo ln -s /opt/odoo/
+sudo ln -s /opt/odoo/bank-payment/account_payment_partner
 sudo ln -s /opt/odoo/
 sudo ln -s /opt/odoo/
 sudo ln -s /opt/odoo/
