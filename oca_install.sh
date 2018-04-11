@@ -29,4 +29,4 @@ sudo ln -s /opt/odoo/account-payment/account_due_list
 sudo ln -s /opt/odoo/account-payment/account_due_list_payment_mode
 sudo ln -s /opt/odoo/account-payment/account_banking_mandate
 sudo ln -s /opt/odoo/account-payment/account_banking_pain_base
-sudo ln -s /opt/odoo/account
+sudo ln -s /opt/odoo/account-payment/_banking_payment_export
