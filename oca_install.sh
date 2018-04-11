@@ -20,27 +20,47 @@ sudo git clone https://github.com/OCA/bank-statement-import.git -b 10.0/opt/odoo
 
 sudo ln -s /opt/odoo/account-financial-reporting/account_export_csv /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-financial-reporting/account_move_line_report_xls opt/odoo/custom/addons
-sudo ln -s /opt/odoo/account-financial-tools/account_chart_update
-sudo ln -s /opt/odoo/account-financial-tools/account_invoice_constraint_chronology
-sudo ln -s /opt/odoo/account-financial-tools/account_invoice_currency
-sudo ln -s /opt/odoo/account-financial-tools/account_journal_always_check_date
-sudo ln -s /opt/odoo/account-financial-tools/account_renumber
-sudo ln -s /opt/odoo/account-payment/account_due_list
-sudo ln -s /opt/odoo/account-payment/account_due_list_payment_mode
-sudo ln -s /opt/odoo/bank-payment/account_banking_mandate
-sudo ln -s /opt/odoo/bank-payment/account_banking_pain_base
-sudo ln -s /opt/odoo/bank-payment/account_banking_payment_export
-sudo ln -s /opt/odoo/bank-payment/account_banking_payment_transfer
-sudo ln -s /opt/odoo/bank-payment/account_banking_sepa_direct_debit
-sudo ln -s /opt/odoo/bank-payment/account_payment_partner
-sudo ln -s /opt/odoo/
-sudo ln -s /opt/odoo/
-sudo ln -s /opt/odoo/
-sudo ln -s /opt/odoo/
-sudo ln -s /opt/odoo/
-sudo ln -s /opt/odoo/
-sudo ln -s /opt/odoo/
-sudo ln -s /opt/odoo/
-sudo ln -s /opt/odoo/
-sudo ln -s /opt/odoo/
-sudo ln -s /opt/odoo/
+sudo ln -s /opt/odoo/account-financial-tools/account_chart_update opt/odoo/custom/addons
+sudo ln -s /opt/odoo/account-financial-tools/account_invoice_constraint_chronology opt/odoo/custom/addons
+sudo ln -s /opt/odoo/account-financial-tools/account_invoice_currency opt/odoo/custom/addons
+sudo ln -s /opt/odoo/account-financial-tools/account_journal_always_check_date opt/odoo/custom/addons
+sudo ln -s /opt/odoo/account-financial-tools/account_renumber opt/odoo/custom/addons
+sudo ln -s /opt/odoo/account-payment/account_due_list opt/odoo/custom/addons
+sudo ln -s /opt/odoo/account-payment/account_due_list_payment_mode opt/odoo/custom/addons
+sudo ln -s /opt/odoo/bank-payment/account_banking_mandate opt/odoo/custom/addons
+sudo ln -s /opt/odoo/bank-payment/account_banking_pain_base opt/odoo/custom/addons
+sudo ln -s /opt/odoo/bank-payment/account_banking_payment_export opt/odoo/custom/addons
+sudo ln -s /opt/odoo/bank-payment/account_banking_payment_transfer opt/odoo/custom/addons
+sudo ln -s /opt/odoo/bank-payment/account_banking_sepa_direct_debit opt/odoo/custom/addons
+sudo ln -s /opt/odoo/bank-payment/account_payment_partner opt/odoo/custom/addons
+sudo ln -s /opt/odoo/knowledge/attachment_preview opt/odoo/custom/addons
+sudo ln -s /opt/odoo/knowledge/attachments_to_filesystem opt/odoo/custom/addons
+sudo ln -s /opt/odoo/knowledge/document_page opt/odoo/custom/addons
+sudo ln -s /opt/odoo/knowledge/document_url opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/account_balance_reporting_xlsx opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/account_balance_reporting opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_account_asset opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_account_balance_report opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_account_bank_statement_import_n43 opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_account_invoice_sequence opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod111 opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod115 opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod130 opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod303 opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod347 opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod349 opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat opt/odoo/custom/addons
+
+#he cambiado el modulo l10n_es_fiscal_year_closing por l10n_es_account_fiscal_year_closing
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_account_fiscal_year_closing opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_partner_mercantil opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_partner opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_pos opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_toponyms opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es opt/odoo/custom/addons
+sudo ln -s /opt/odoo/partner-contact/base_location opt/odoo/custom/addons
+sudo ln -s /opt/odoo/partner-contact/base_location_geonames_import opt/odoo/custom/addons
+sudo ln -s /opt/odoo/partner-contact/base_partner_sequence opt/odoo/custom/addons
+sudo ln -s /opt/odoo/partner-contact/report_xlsx opt/odoo/custom/addons
+sudo ln -s /opt/odoo/server-tools/mass_editing opt/odoo/custom/addons
+sudo ln -s /opt/odoo/web/web_export_view opt/odoo/custom/addons
