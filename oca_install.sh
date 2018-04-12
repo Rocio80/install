@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 #1 descarga
 echo -e "\n=== Installing some modules ==="
 sudo git clone https://github.com/OCA/account-financial-tools.git -b 10.0 /opt/odoo/account-financial-tools
