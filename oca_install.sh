@@ -45,6 +45,8 @@ sudo ln -s /opt/odoo/partner-contact/base_location /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/partner-contact/base_location_geonames_import /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/partner-contact/base_partner_sequence /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/server-tools/mass_editing /opt/odoo/custom/addons
+#He añadido server-tools/date_range que era dependecia de account_balance_reporting
+sudo ln -s /opt/odoo/server-tools/date_range /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/web/web_export_view /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/bank-payment/account_payment_partner /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/bank-payment/account_payment_mode /opt/odoo/custom/addons
