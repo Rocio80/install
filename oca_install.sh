@@ -26,7 +26,6 @@ sudo ln -s /opt/odoo/account-payment/account_due_list_payment_mode /opt/odoo/cus
 sudo ln -s /opt/odoo/knowledge/attachment_preview /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/knowledge/attachments_to_filesystem /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/knowledge/document_page /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/knowledge/document_url /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/account_balance_reporting_xlsx /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/account_balance_reporting /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_account_asset /opt/odoo/custom/addons
