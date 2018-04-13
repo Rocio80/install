@@ -15,7 +15,7 @@ sudo git clone https://github.com/OCA/bank-statement-import.git -b 10.0 /opt/odo
 
 #2 acceso directo
 
-sudo ln -s /opt/odoo/account-financial-reporting/account_export_csv /opt/odoo/custom/addons
+#sudo ln -s /opt/odoo/account-financial-reporting/account_export_csv /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-financial-tools/account_chart_update /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-financial-tools/account_invoice_constraint_chronology /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-financial-tools/account_invoice_currency /opt/odoo/custom/addons
