@@ -77,5 +77,5 @@ sudo ln -s /opt/odoo/reporting-engine/report_xlsx /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/bank-payment/account_banking_mandate /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/bank-payment/account_payment_partner /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/bank-payment/account_payment_mode /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/bank-statement-import/account_bank_statement_import /opt/odoo/custom/addons/
+sudo ln -s /opt/odoo/bank-statement-import/account_bank_statement_import /opt/odoo/custom/addons
 
