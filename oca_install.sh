@@ -47,3 +47,4 @@ sudo ln -s /opt/odoo/partner-contact/base_partner_sequence /opt/odoo/custom/addo
 sudo ln -s /opt/odoo/server-tools/mass_editing /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/web/web_export_view /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/bank-payment/account_payment_partner /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/bank-payment/account_payment_mode /opt/odoo/custom/addons
