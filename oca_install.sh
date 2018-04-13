@@ -55,7 +55,7 @@ sudo ln -s /opt/odoo/l10n-spain/l10n_es_partner_mercantil /opt/odoo/custom/addon
 #he cambiado el modulo l10n_es_fiscal_year_closing por l10n_es_account_fiscal_year_closing
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_account_fiscal_year_closing /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_partner /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/l10n-spain/l10n_es_pos /opt/odoo/custom/addons
+#sudo ln -s /opt/odoo/l10n-spain/l10n_es_pos /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_toponyms /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/partner-contact/base_location /opt/odoo/custom/addons
@@ -71,11 +71,10 @@ sudo ln -s /opt/odoo/bank-payment/account_banking_pain_base /opt/odoo/custom/add
 sudo ln -s /opt/odoo/bank-payment/account_banking_sepa_direct_debit /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/bank-payment/account_payment_order /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/reporting-engine/report_xlsx /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/reporting-engine/report_xlsx /opt/odoo/custom/addons
 #sudo ln -s /opt/odoo/reporting-engine/report_py3o /opt/odoo/custom/addons
 
 sudo ln -s /opt/odoo/bank-payment/account_banking_mandate /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/bank-payment/account_payment_partner /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/bank-payment/account_payment_mode /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/bank-statement-import/account_bank_statement_import /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/bank-statement-import/account-bank-statement-import /opt/odoo/custom/addons
 
