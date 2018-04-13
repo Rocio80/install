@@ -4,7 +4,7 @@
 sudo git clone https://github.com/OCA/account-financial-reporting.git -b 10.0 /opt/odoo/account-financial-reporting
 sudo git clone https://github.com/OCA/account-financial-tools.git -b 10.0 /opt/odoo/account-financial-tools
 sudo git clone https://github.com/OCA/account-payment.git -b 10.0 /opt/odoo/account-payment
-sudo git clone https://github.com/OCA/bank payment.git -b 10.0 /opt/odoo/bank payment
+sudo git clone https://github.com/OCA/bank-payment.git -b 10.0 /opt/odoo/bank-payment
 sudo git clone https://github.com/OCA/knowledge.git -b 10.0 /opt/odoo/knowledge
 sudo git clone https://github.com/OCA/l10n-spain.git -b 10.0 /opt/odoo/l10n-spain
 sudo git clone https://github.com/OCA/partner-contact.git -b 10.0 /opt/odoo/partner-contact
@@ -46,3 +46,4 @@ sudo ln -s /opt/odoo/partner-contact/base_location_geonames_import /opt/odoo/cus
 sudo ln -s /opt/odoo/partner-contact/base_partner_sequence /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/server-tools/mass_editing /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/web/web_export_view /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/bank-payment/account_payment_partner /opt/odoo/custom/addons
