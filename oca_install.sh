@@ -44,7 +44,6 @@ sudo ln -s /opt/odoo/l10n-spain/l10n_es_account_invoice_sequence /opt/odoo/custo
 #sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod115 /opt/odoo/custom/addons
 #sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod130 /opt/odoo/custom/addons
 #sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod303 /opt/odoo/custom/addons
-#sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod340_type0 /opt/odoo/custom/addons
 #sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod340 /opt/odoo/custom/addons
 #sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod347 /opt/odoo/custom/addons
 #sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod349 /opt/odoo/custom/addons
