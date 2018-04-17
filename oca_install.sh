@@ -62,7 +62,6 @@ sudo ln -s /opt/odoo/bank-payment/account_banking_sepa_direct_debit /opt/odoo/cu
 sudo ln -s /opt/odoo/bank-payment/account_direct_debit /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/bank-payment/account_banking_payment_export /opt/odoo/custom/addons
 #sudo ln -s /opt/odoo/bank-payment/account_payment_order /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/reporting-engine/report_xlsx /opt/odoo/custom/addons
 #sudo ln -s /opt/odoo/reporting-engine/report_py3o /opt/odoo/custom/addons
 
 sudo ln -s /opt/odoo/bank-payment/account_banking_mandate /opt/odoo/custom/addons
