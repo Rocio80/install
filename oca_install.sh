@@ -26,7 +26,6 @@ sudo ln -s /opt/odoo/account-financial-tools/account_renumber /opt/odoo/custom/a
 #sudo ln -s /opt/odoo/account-financial-reporting/account_tax_balance /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-payment/account_due_list /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-payment/account_due_list_payment_mode /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/account-invoicing/account_invoice_refund_link /opt/odoo/custom/addons
 
 sudo ln -s /opt/odoo/knowledge/attachment_preview /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/knowledge/attachments_to_filesystem /opt/odoo/custom/addons
@@ -61,8 +60,7 @@ sudo ln -s /opt/odoo/partner-contact/base_location_geonames_import /opt/odoo/cus
 sudo ln -s /opt/odoo/partner-contact/base_partner_sequence /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/server-tools/mass_editing /opt/odoo/custom/addons
 #He añadido server-tools/date_range que era dependecia de account_balance_reporting
-sudo ln -s /opt/odoo/server-tools/date_range /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/server-tools/disable_odoo_online /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/server-tools/disable_odoo_oline /opt/odoo/custom/addons
 
 sudo ln -s /opt/odoo/web/web_export_view /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/bank-payment/account_banking_pain_base /opt/odoo/custom/addons
